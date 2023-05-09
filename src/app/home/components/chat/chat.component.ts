@@ -153,7 +153,7 @@ export class ChatComponent {
   }
 
   deriveFullImagePath(user: User): string {
-    let url = 'http://localhost:3000/api/feed/image/';
+    let url = 'https://dmnn-backend.onrender.com/api/feed/image/';
 
     if (user.id === this.userId) {
       return this.userFullImagePath;

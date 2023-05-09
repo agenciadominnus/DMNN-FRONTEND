@@ -80,11 +80,11 @@ export class AuthService {
   constructor(private http: HttpClient, private router: Router) {}
 
   getDefaultFullImagePath(): string {
-    return 'http://localhost:3000/api/feed/image/blank-profile-picture.png';
+    return 'https://dmnn-backend.onrender.com/api/feed/image/blank-profile-picture.png';
   }
 
   getFullImagePath(imageName: string): string {
-    return 'http://localhost:3000/api/feed/image/' + imageName;
+    return 'https://dmnn-backend.onrender.com/api/feed/image/' + imageName;
   }
 
   getUserImage() {

@@ -36,7 +36,7 @@ export class ConnectionProfileComponent implements OnInit, OnDestroy {
             this.user = user;
             const imgPath = user.imagePath ?? 'blank-profile-picture.png';
             this.user['fullImagePath'] =
-              'http://localhost:3000/api/feed/image/' + imgPath;
+              'https://dmnn-backend.onrender.com/api/feed/image/' + imgPath;
           });
         })
       )

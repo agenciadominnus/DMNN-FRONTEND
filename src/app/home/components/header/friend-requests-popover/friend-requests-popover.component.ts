@@ -27,7 +27,7 @@ export class FriendRequestsPopoverComponent implements OnInit {
               take(1),
               tap((user: User) => {
                 friendRequest['fullImagePath'] =
-                  'http://localhost:3000/api/feed/image/' +
+                  'https://dmnn-backend.onrender.com/api/feed/image/' +
                   (user?.imagePath || 'blank-profile-picture.png');
               })
             )
