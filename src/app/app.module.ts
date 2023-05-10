@@ -9,11 +9,17 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AuthInterceptorService } from './auth/services/auth-interceptor.service';
 
+//import { AngularFireModule } from '@angular/fire';
+//import { AngularFireAuthModule } from '@angular/fire/auth';
+import { environment } from '../environments/environment';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
-    BrowserModule,
+ BrowserModule,
+    //AngularFireModule.initializeApp(environment.firebase),
+  //  AngularFireAuthModule,
     IonicModule.forRoot(),
     AppRoutingModule,
     HttpClientModule,

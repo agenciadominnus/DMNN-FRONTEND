@@ -82,7 +82,7 @@ export class AuthService {
   getDefaultFullImagePath(): string {
     return 'https://dmnn-backend.onrender.com/api/feed/image/blank-profile-picture.png';
   }
-
+// set NODE_OPTIONS=--openssl-legacy-provide
   getFullImagePath(imageName: string): string {
     return 'https://dmnn-backend.onrender.com/api/feed/image/' + imageName;
   }

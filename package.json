@@ -17,6 +17,7 @@
   "dependencies": {
     "@angular/common": "~12.1.4",
     "@angular/core": "~12.1.4",
+    "@angular/fire": "^7.5.0",
     "@angular/forms": "~12.1.4",
     "@angular/platform-browser": "~12.1.4",
     "@angular/platform-browser-dynamic": "~12.1.4",
@@ -28,7 +29,7 @@
     "file-type": "^16.5.3",
     "jwt-decode": "^3.1.2",
     "ngx-socket-io": "^4.1.0",
-    "rxjs": "~7.3.0",
+    "rxjs": "^7.3.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
@@ -50,6 +51,7 @@
     "@types/node": "^16.4.10",
     "@typescript-eslint/eslint-plugin": "4.29.0",
     "@typescript-eslint/parser": "4.29.0",
+    "cypress": "8.3.1",
     "eslint": "^7.32.0",
     "eslint-plugin-import": "2.23.4",
     "eslint-plugin-jsdoc": "36.0.6",
@@ -63,8 +65,7 @@
     "karma-jasmine": "~4.0.1",
     "karma-jasmine-html-reporter": "^1.7.0",
     "ts-node": "~10.1.0",
-    "typescript": "~4.3.5",
-    "cypress": "8.3.1"
+    "typescript": "~4.3.5"
   },
   "description": "An Ionic project"
 }
